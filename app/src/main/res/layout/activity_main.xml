@@ -6,17 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:padding="24dp"
-    android:background="@drawable/homescreen">
+    android:background="@drawable/capybara_home">
 
     <TextView
         android:id="@+id/textViewSpaceShip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:fontFamily="@font/upheavtt"
-        android:text="spaceSHIP"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/pixellari"
+        android:text="KAPPY"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="#FFC107"
         android:textSize="52dp"
 
         app:layout_constraintTop_toTopOf="parent"
@@ -26,11 +26,11 @@
         android:id="@+id/textViewRace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/upheavtt"
-        android:text="race"
+        android:fontFamily="@font/pixellari"
+        android:text="RUNRUN"
         android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:textSize="72dp"
+        android:textColor="#FFC107"
+        android:textSize="62dp"
         app:layout_constraintTop_toBottomOf="@+id/textViewSpaceShip"
         tools:layout_editor_absoluteX="24dp" />
 
@@ -38,7 +38,7 @@
         android:id="@+id/textViewAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/pixellari"
         android:paddingVertical="8dp"
         android:text="Account"
@@ -53,22 +53,21 @@
         android:id="@+id/listView_1"
         android:layout_width="match_parent"
         android:layout_height="320dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
+        android:dividerHeight="20dp"
         app:layout_constraintTop_toBottomOf="@+id/textViewAccount"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="24dp"
 
-        android:dividerHeight="20dp"
-        />
+        tools:layout_editor_absoluteX="32dp" />
 
     <Button
         android:id="@+id/buttonCreateNewAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FF910F"
-        android:fontFamily="@font/upheavtt"
-        android:text="create new account"
-        android:textColor="#FFFFFF"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="@font/pixellari"
+        android:text="Register Here!"
+        android:textColor="#FFEB3B"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
