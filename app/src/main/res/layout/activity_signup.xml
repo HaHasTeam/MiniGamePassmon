@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signupscreen">
+    android:background="@drawable/signupscreen"
+    android:id="@+id/constraintLayoutSignIn">
 
 
     <TextView
@@ -15,7 +16,7 @@
         android:fontFamily="@font/upheavtt"
         android:textFontWeight="400"
         android:text="SIGN UP"
-        android:textColor="@color/white"
+        android:textColor="#071952"
         android:textSize="75dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +32,7 @@
         android:fontFamily="@font/pixellari"
         android:text="Name"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSignIn" />
 
@@ -43,7 +44,7 @@
         android:fontFamily="@font/pixellari"
         android:text="Password"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/etName"
         app:layout_constraintTop_toBottomOf="@+id/etName" />
 
@@ -82,8 +83,7 @@
         android:layout_width="320dp"
         android:layout_height="54dp"
         android:layout_marginTop="51dp"
-        android:background="#FF910F"
-        app:backgroundTint="#FF910F"
+        app:backgroundTint="#071952"
         android:fontFamily="@font/upheavtt"
         android:text="Sumit"
         android:textSize="22dp"
@@ -95,9 +95,10 @@
         android:layout_width="320dp"
         android:layout_height="54dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/button_border"
+        android:backgroundTint="#AFEEEE"
         android:fontFamily="@font/upheavtt"
         android:text="RETURN HOME"
+        android:textColor="#071952"
         android:textSize="22dp"
         app:layout_constraintStart_toStartOf="@+id/btnSignIn"
         app:layout_constraintTop_toBottomOf="@+id/btnSignIn" />
@@ -129,4 +130,15 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/signscreengif"
+        tools:ignore="MissingClass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
