@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultActivity"
-    android:background="@drawable/resultscreen">
+    android:background="@drawable/signupscreen"
+    tools:context=".ResultActivity">
 
     <LinearLayout
         android:layout_width="320dp"
         android:layout_height="132dp"
-        android:layout_marginTop="583dp"
         android:layout_marginStart="35dp"
+        android:layout_marginTop="583dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -21,29 +21,28 @@
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:background="#FF910F"
-            android:text="@string/bet_again"
-            android:textSize="23sp"
             android:fontFamily="@font/upheavtt"
             android:padding="16dp"
+            android:text="@string/bet_again"
             android:textColor="#FFFFFF"
-            />
+            android:textSize="23sp" />
+
         <Space
             android:layout_width="wrap_content"
-            android:layout_height="24dp">
-        </Space>
+            android:layout_height="24dp"></Space>
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnHome"
             android:layout_width="match_parent"
             android:layout_height="54dp"
-            android:background="@drawable/transparent_button"
-            android:textSize="23sp"
+            android:backgroundTint="#9046B2EF"
             android:fontFamily="@font/upheavtt"
             android:padding="16dp"
-            android:textColor="#FFFFFF"
             android:text="@string/return_home"
-            app:strokeWidth="2dp"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
             app:strokeColor="#FFFFFF"
-            />
+            app:strokeWidth="2dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,57 +50,52 @@
         android:layout_height="232dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="310dp"
+        android:background="#8046A1E6"
+        android:divider="@drawable/empty_tall_divider"
         android:orientation="vertical"
         android:paddingHorizontal="54dp"
         android:paddingVertical="32dp"
-        android:background="@drawable/tabel"
         android:showDividers="middle"
-        android:divider="@drawable/empty_tall_divider"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        >
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/tvCoin"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
-            android:text="Your coin: 100 coins"
-            android:textAppearance="@style/tabel_coin"
             android:gravity="top"
-            />
+            android:text="Your coin: 100 coins"
+            android:textAppearance="@style/tabel_coin" />
 
         <TextView
             android:id="@+id/tvReward"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
-            android:text="Reward: 10 coins"
-            android:textAppearance="@style/tabel_coin"
             android:gravity="top"
-            />
+            android:text="Reward: 10 coins"
+            android:textAppearance="@style/tabel_coin" />
 
         <TextView
             android:id="@+id/tvLose"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
-            android:text="Lose: 80 coins"
-            android:textAppearance="@style/tabel_coin"
             android:gravity="top"
-            />
+            android:text="Lose: 80 coins"
+            android:textAppearance="@style/tabel_coin" />
+
         <View
             android:id="@+id/line_2"
             android:layout_width="216dp"
             android:layout_height="3dp"
-            android:background="@drawable/line_2"
-            />
+            android:background="@drawable/line_2" />
 
         <TextView
             android:id="@+id/tvTotal"
             android:layout_width="wrap_content"
             android:layout_height="26dp"
-            android:text="Total: 30 coins"
-            android:textAppearance="@style/tabel_coin"
             android:gravity="top"
-            />
+            android:text="Total: 30 coins"
+            android:textAppearance="@style/tabel_coin" />
 
     </LinearLayout>
 
@@ -111,9 +105,9 @@
         android:layout_height="209dp"
         android:layout_marginStart="97dp"
         android:layout_marginTop="80dp"
+        android:divider="@drawable/empty_tall_divider"
         android:orientation="vertical"
         android:showDividers="middle"
-        android:divider="@drawable/empty_tall_divider"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -122,7 +116,7 @@
             android:layout_width="144dp"
             android:layout_height="149dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@drawable/twofirewin" />
+            app:srcCompat="@drawable/signscreengif" />
 
 
         <TextView
