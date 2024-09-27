@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/racescreen"
+    tools:context=".MainActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,14 +14,14 @@
         android:weightSum="4">
 
         <TextView
-            android:fontFamily="@font/upheavtt"
             android:id="@+id/textViewCoin"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="COINS: 100"
-            android:textColor="#fff"
+            android:fontFamily="@font/upheavtt"
             android:gravity="center"
+            android:text="COINS: 100"
+            android:textColor="#211826"
             android:textSize="30dp" />
 
         <LinearLayout
@@ -76,16 +77,16 @@
                 android:layout_weight="1" />
         </LinearLayout>
     </LinearLayout>
+
     <TextView
-        android:fontFamily="@font/upheavtt"
         android:id="@+id/countdownText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Start in 3"
+        android:fontFamily="@font/upheavtt"
         android:gravity="center"
-        android:textStyle="bold"
+        android:text="Start in 3"
+        android:textColor="#211826"
         android:textSize="30dp"
-        android:textColor="@color/white"
-        />
+        android:textStyle="bold" />
 
 </RelativeLayout>
