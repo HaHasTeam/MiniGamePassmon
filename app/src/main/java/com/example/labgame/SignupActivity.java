@@ -79,6 +79,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
         Intent resultIntent = new Intent();
         resultIntent.putExtra("ListAccount", accountArrayList);
+        Toast.makeText(this, "Register successfully", Toast.LENGTH_LONG).show();
         setResult(RESULT_OK, resultIntent);
         finish();
     }
