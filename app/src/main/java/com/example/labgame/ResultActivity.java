@@ -82,19 +82,20 @@ public class ResultActivity extends AppCompatActivity {
     }
 
     private void calculateCoin(int winner) {
-
+        System.out.println("wwiner:1 "+ winner);
         if (winner == 1) {
-            ivWinner.setImageResource(R.drawable.onefirewin);
+
+            ivWinner.setImageResource(R.drawable.cabipara1);
             reward = bet1;
             lose = bet2 + bet3;
         }
         else if (winner == 2) {
-            ivWinner.setImageResource(R.drawable.twofirewin);
+            ivWinner.setImageResource(R.drawable.win_capibara2);
             reward = bet2;
             lose = bet1 + bet3;
         }
         else {
-            ivWinner.setImageResource(R.drawable.threefirewin);
+            ivWinner.setImageResource(R.drawable.cabipara3);
             reward = bet3;
             lose = bet1 + bet2;
         }
