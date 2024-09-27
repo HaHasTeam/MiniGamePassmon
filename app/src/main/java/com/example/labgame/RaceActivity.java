@@ -38,9 +38,9 @@ public class RaceActivity extends AppCompatActivity {
             }
             public void onFinish(){
                 txtCountdown.setText("");
-                imgvBet1.setThumb(getResources().getDrawable(R.drawable.bet1active));
-                imgvBet2.setThumb(getResources().getDrawable(R.drawable.bet2active));
-                imgvBet3.setThumb(getResources().getDrawable(R.drawable.bet3active));
+                imgvBet1.setThumb(getResources().getDrawable(R.drawable.kappy1));
+                imgvBet2.setThumb(getResources().getDrawable(R.drawable.kappy2));
+                imgvBet3.setThumb(getResources().getDrawable(R.drawable.kappy3));
                 getStart();
             }
         }.start();

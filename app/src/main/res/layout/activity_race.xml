@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/racescreen"
+    android:background="@drawable/race_bg"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -21,7 +21,7 @@
             android:fontFamily="@font/upheavtt"
             android:gravity="center"
             android:text="COINS: 100"
-            android:textColor="#211826"
+            android:textColor="#FF9800"
             android:textSize="30dp" />
 
         <LinearLayout
@@ -48,7 +48,7 @@
                 android:focusable="false"
                 android:progress="10"
                 android:progressDrawable="@drawable/transparent_progress"
-                android:thumb="@drawable/bet1" />
+                android:thumb="@drawable/kappy1" />
 
             <SeekBar
                 android:id="@+id/imageViewBet2"
@@ -58,7 +58,7 @@
                 android:layout_weight="1"
                 android:progress="10"
                 android:progressDrawable="@drawable/transparent_progress"
-                android:thumb="@drawable/bet2" />
+                android:thumb="@drawable/kappy2" />
 
             <SeekBar
                 android:id="@+id/imageViewBet3"
@@ -69,7 +69,7 @@
                 android:progress="10"
                 android:progressDrawable="@drawable/transparent_progress"
                 android:splitTrack="false"
-                android:thumb="@drawable/bet3" />
+                android:thumb="@drawable/kappy3" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -85,7 +85,7 @@
         android:fontFamily="@font/upheavtt"
         android:gravity="center"
         android:text="Start in 3"
-        android:textColor="#211826"
+        android:textColor="#FFFFFF"
         android:textSize="30dp"
         android:textStyle="bold" />
 

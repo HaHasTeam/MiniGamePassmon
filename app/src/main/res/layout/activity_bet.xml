@@ -11,11 +11,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="@font/upheavtt"
         android:text="Bet capybara"
         android:textAlignment="center"
-        android:textColor="#211826"
+        android:textColor="#F8B24E"
         android:textFontWeight="400"
         android:textSize="64dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +43,7 @@
             android:fontFamily="@font/upheavtt"
             android:text="Your coin: "
             android:textAlignment="center"
-            android:textColor="#211826"
+            android:textColor="#F8B24E"
             android:textFontWeight="400"
             android:textSize="20dp" />
 
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/upheavtt"
             android:text="100"
-            android:textColor="#211826"
+            android:textColor="#F8B24E"
             android:textSize="20dp" />
     </LinearLayout>
 
@@ -66,7 +66,7 @@
         android:lineHeight="22sp"
         android:text="Capybaras are hungry and need your money to find some food"
         android:textAlignment="center"
-        android:textColor="#211826"
+        android:textColor="#FF9800"
         android:textFontWeight="500"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +92,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="9"
-            app:srcCompat="@drawable/onefire" />
+            app:srcCompat="@drawable/cabipara1" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -109,7 +109,7 @@
                 android:fontFamily="@font/pixellari"
                 android:gravity="center"
                 android:text="Coin:"
-                android:textColor="#211826"
+                android:textColor="#FF9800"
                 android:textFontWeight="500"
                 android:textSize="20sp" />
 
@@ -148,7 +148,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="9"
-            app:srcCompat="@drawable/twofire" />
+            app:srcCompat="@drawable/capipare2" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -165,7 +165,7 @@
                 android:gravity="center"
                 android:lineHeight="22sp"
                 android:text="Coin:"
-                android:textColor="#211826"
+                android:textColor="#FF9800"
                 android:textFontWeight="500"
 
                 android:textSize="20sp" />
@@ -206,7 +206,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="9"
-            app:srcCompat="@drawable/threefire" />
+            app:srcCompat="@drawable/cabipara3" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -224,7 +224,7 @@
                 android:gravity="center"
                 android:lineHeight="22sp"
                 android:text="Coin:"
-                android:textColor="#211826"
+                android:textColor="#FF9800"
                 android:textFontWeight="500"
 
                 android:textSize="20sp" />
@@ -266,7 +266,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="320dp"
         android:layout_height="59dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/upheavtt"
         android:text="START"
         android:textSize="22sp"
