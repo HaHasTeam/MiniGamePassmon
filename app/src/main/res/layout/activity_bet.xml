@@ -9,11 +9,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:fontFamily="@font/upheavtt"
-        android:text="Bet capybara"
+        android:text="Bet capy"
         android:textAlignment="center"
         android:textColor="#F8B24E"
         android:textFontWeight="400"
@@ -65,7 +65,7 @@
         android:background="#50D0C8C8"
         android:fontFamily="@font/pixellari"
         android:lineHeight="22sp"
-        android:text="Capybaras are hungry and need your money to find food. Bet for winner."
+        android:text="Place bets on one or more capybaras before the game. Win if your chosen capybara wins; lose your bet if it doesn't. Total money = base coin + gains - losses."
         android:textAlignment="center"
         android:textColor="#E07555"
         android:textFontWeight="500"
@@ -125,7 +125,7 @@
                 android:fontFamily="@font/pixellari"
                 android:hint="0"
                 android:inputType="numberSigned"
-                android:textColor="@color/white"
+                android:textColor="#FF9800"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -184,7 +184,7 @@
                 android:hint="0"
                 android:inputType="numberSigned"
 
-                android:textColor="@color/white"
+                android:textColor="#FF9800"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -244,7 +244,7 @@
 
                 android:hint="0"
                 android:inputType="numberSigned"
-                android:textColor="@color/white"
+                android:textColor="#FF9800"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -272,7 +272,7 @@
         android:layout_height="59dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/upheavtt"
-        android:text="START"
+        android:text="READ AND START"
         android:textSize="22sp"
         app:backgroundTint="#FF910F"
         app:layout_constraintEnd_toEndOf="@+id/spacecraft3"
