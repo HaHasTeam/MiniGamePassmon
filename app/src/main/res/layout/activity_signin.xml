@@ -13,7 +13,7 @@
         android:layout_marginTop="120dp"
         android:fontFamily="@font/upheavtt"
         android:text="SIGN IN"
-        android:textColor="#071952"
+        android:textColor="#FF910F"
         android:textFontWeight="400"
         android:textSize="75dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +71,7 @@
         android:text="Submit"
         android:textColor="#FFFFFF"
         android:textSize="22dp"
-        app:backgroundTint="#071952"
+        app:backgroundTint="#FF910F"
         app:layout_constraintStart_toStartOf="@+id/txtIncorrectPassword"
         app:layout_constraintTop_toBottomOf="@+id/txtIncorrectPassword" />
 
@@ -84,7 +84,7 @@
         android:fontFamily="@font/upheavtt"
         android:text="RETURN HOME"
         android:textSize="22dp"
-        android:textColor="#071952"
+        android:textColor="#FF910F"
         app:layout_constraintStart_toStartOf="@+id/btnSignIn"
         app:layout_constraintTop_toBottomOf="@+id/btnSignIn" />
     <pl.droidsonroids.gif.GifImageView
