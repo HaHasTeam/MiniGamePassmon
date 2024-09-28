@@ -11,7 +11,9 @@ public class GlobalClass {
     private GlobalClass() {
         if (accountArrayList == null) {
             accountArrayList = new ArrayList<>();
-            accountArrayList.add(new Account("Sample", "12345678", 100));
+            accountArrayList.add(new Account("Linh", "12345678", 100));
+            accountArrayList.add(new Account("Minh", "12345678", 100));
+            accountArrayList.add(new Account("Quang", "12345678", 100));
         }
         if (currentUser == null){
             currentUser = new Account();
